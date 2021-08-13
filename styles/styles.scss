@@ -143,9 +143,6 @@ nav {
       }
     }
 
-    .search__list {
-    }
-
     .search__item {
       a {
         display: flex;
@@ -301,5 +298,11 @@ nav {
   from {
   }
   to {
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  nav .profile {
+    display: none;
   }
 }

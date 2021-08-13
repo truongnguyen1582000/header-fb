@@ -340,4 +340,10 @@ nav .right-nav__item a i {
   to {
   }
 }
+
+@media screen and (max-width: 1260px) {
+  nav .profile {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
