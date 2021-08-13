@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo-browser.png" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Facebook</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">
+        <img src="./images/logo-browser.png" alt="logo" />
+      </a>
+      <div class="input-container">
+        <i class="fas fa-arrow-left underlay back-btn"></i>
+        <div class="scale-input">
+          <i class="fas fa-search search-icon"></i>
+          <input
+            type="text"
+            class="search"
+            placeholder="Tìm kiếm trên Facebook"
+          />
+        </div>
+
+        <div class="history-search">
+          <div class="history-top">
+            <h2>Tìm kiếm gần đây</h2>
+            <a href="#" class="underlay">Chỉnh sửa</a>
+          </div>
+          <ul class="search__list">
+            <li class="search__item">
+              <a href="#" class="underlay">
+                <i class="far fa-clock"></i>
+                <p class="search-content">search 1</p>
+                <i class="fas fa-times underlay--cirle"></i>
+              </a>
+            </li>
+            <li class="search__item">
+              <a href="#" class="underlay">
+                <i class="far fa-clock"></i>
+                <p class="search-content">search 2</p>
+                <i class="fas fa-times underlay--cirle"></i>
+              </a>
+            </li>
+            <li class="search__item">
+              <a href="#" class="underlay">
+                <i class="far fa-clock"></i>
+                <p class="search-content">search 3</p>
+                <i class="fas fa-times underlay--cirle"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul class="center-nav">
+        <li class="center-nav__item center-nav__item--active">
+          <a href="#" class="underlay"><i class="fas fa-home"></i></a>
+        </li>
+        <li class="center-nav__item">
+          <a href="#" class="underlay"><i class="fas fa-user-friends"></i></a>
+        </li>
+        <li class="center-nav__item">
+          <a href="#" class="underlay"
+            ><i class="fas fa-tv"><i class="fas fa-play nested-icon"></i></i>
+            <span class="notify-counter">2</span>
+          </a>
+        </li>
+        <li class="center-nav__item">
+          <a href="#" class="underlay"
+            ><i class="fas fa-users"></i>
+            <span class="notify-counter">9+</span>
+          </a>
+        </li>
+        <li class="center-nav__item">
+          <a href="#" class="underlay"><i class="fas fa-dice-d6"></i></a>
+        </li>
+      </ul>
+
+      <a class="profile underlay" href="#">
+        <img src="./images/avt.png" alt="" />
+        <span class="profile-name">Gao Đỏ</span>
+      </a>
+
+      <ul class="right-nav">
+        <li class="right-nav__item">
+          <a href="#"><i class="fas fa-bars underlay--default"></i></a>
+        </li>
+        <li class="right-nav__item">
+          <a href="#"><i class="fas fa-comment underlay--default"></i></a>
+        </li>
+        <li class="right-nav__item">
+          <a href="#"><i class="fas fa-bell underlay--default"></i></a>
+        </li>
+        <li class="right-nav__item">
+          <a href="#"><i class="fas fa-caret-down underlay--default"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <script src="app.js"></script>
+  </body>
+</html>

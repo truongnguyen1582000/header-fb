@@ -1,0 +1,51 @@
+.underlay {
+  color: #a8abaf;
+  transition: all 0.1s linear;
+}
+
+.underlay--default {
+  background-color: #3a3b3c;
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+
+.underlay--default:hover {
+  background-color: rgb(78, 79, 80);
+}
+
+.underlay--cirle {
+  border-radius: 100%;
+  padding: 6px;
+  transition: all 0.1s linear;
+}
+
+.underlay--cirle:hover {
+  background-color: rgb(63, 64, 66);
+}
+
+.underlay:hover {
+  background-color: #3a3b3c;
+}
+
+.btn--primary {
+  background-color: #1877f2;
+}
+
+.btn--cancel {
+  color: #4b4f56;
+  background-color: #e4e6eb;
+}
+
+.input {
+  outline: none;
+  font-size: 16px;
+  border: 1px solid #ced0d4;
+}
+
+.input:focus {
+  border-color: #1877f2;
+}
+
+.input:focus::-webkit-input-placeholder {
+  color: rgb(190, 195, 211);
+}
